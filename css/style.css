@@ -11,7 +11,7 @@ ul li a{
 }
 
 ul li a:hover{ 
-    background-color: grey;
+    background-color: #F24534;
     padding: 15px 50px;
     color: black;
     border-radius: 20px;
@@ -22,17 +22,33 @@ ul li a:hover{
     padding-left: 40px;
 
 }
+.body p{
+    padding: 20px;
+    font-size: 25px;
+}
 .body{
     padding-top: 150px;
 }
 
 .button{
-    padding-top: 60px;
-    padding-left: 100px;
+    padding-top: 80px;
+    padding-left: 200px;
 }
+
+button{
+    padding: 10px 80px;
+    border-radius: 20px;
+    background:transparent ;
+}
+
+button:hover{
+    background-color: #F24534;
+    color: white;
+}
+
 body{
     background-image: url("../img/land-removebg-preview\ \(1\).png");
     background-size: 100% 100%;
-    height: 850px;
+    height: 1000px;
 }
 
