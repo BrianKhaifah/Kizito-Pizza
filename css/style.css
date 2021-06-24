@@ -18,3 +18,21 @@ ul li a:hover{
    
 
 }
+.body h1{
+    padding-left: 40px;
+
+}
+.body{
+    padding-top: 150px;
+}
+
+.button{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+body{
+    background-image: url("../img/land-removebg-preview\ \(1\).png");
+    background-size: 100% 100%;
+    height: 850px;
+}
+
