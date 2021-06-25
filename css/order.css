@@ -96,3 +96,18 @@ button:hover{
     background-color: #F24534;
     color: white;
 }
+
+/* body */
+
+#data{
+    background-image: url("../img/page2.png");
+    background-size: 100% 100%;
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    margin: 50px;
+
+}
+.body{
+    padding: 50px;
+}
