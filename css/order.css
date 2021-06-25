@@ -1,0 +1,18 @@
+*, ul li a{ 
+    list-style: none;
+    text-decoration: none;
+
+}
+ul li a{ 
+    color: black;
+   
+
+}
+ul li a:hover{ 
+    background-color: #F24534;
+    padding: 10px 40px;
+    color: black;
+    border-radius: 20px;
+   
+
+}
