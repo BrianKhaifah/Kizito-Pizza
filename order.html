@@ -246,16 +246,16 @@
               </form>
 
               <div class="row view">
-                  <div id="guide" class="alert">
+                  <div id="guide" class="alert alert-success alert-dismissible">
                       <strong>Success</strong>
                       <p>Place another Order and press on on</p>
-                           <p>VIEW ORDER</p>
-                            <p>To check your and place your order</p>
+                           <p>VIEW CART</p>
+                            <p>To check and place your order</p>
                             <button type="button" class="close" data-dismiss="alert">&times;</button>
 
                   </div>
                   <div>
-                      <button class="btn btn-warning" id="checkOrder">VIEW ORDER</button>
+                      <button class="btn btn-warning" id="checkOrder">VIEW CART</button>
                   </div>
 
               </div>
@@ -263,6 +263,44 @@
           
 
         </div>
+    </div>
+
+    <!-- selection section -->
+
+    <!-- table -->
+    <div id="table">
+        <table class="table order">
+            <tr>
+                <th>
+                    pazza Size
+                </th>
+
+                <th>
+                    pazza Size
+                </th>
+
+                <th>
+                    Crust
+                </th>
+
+                <th>
+                   Topings
+                </th>
+
+                <th>
+                    Total
+                </th>
+            </tr>
+
+            <tbody id="customer"></tbody>
+            <tfoot class="text">
+                <tr id="total">
+
+                </tr>
+
+            </tfoot>
+
+        </table>
     </div>
 
     <script src="js/script.js"></script>
