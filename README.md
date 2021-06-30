@@ -1,24 +1,23 @@
 ## **Kizito Pizza House**
 
 
-![Portfolio](img/h_img.jpg)
+![Portfolio](img/ll.png)
 
 ## **Description**
-####  When you work with us, you are part of a team of committed collaborators and agile. Our approach unifies design, development and product management to create exceptional products we start each project by understanding your business goals,the use's needs and the products requirements Then we help translate them into effective and elegant solutions.
+####  Kizito Pizza House is here to help ease the and smoothen the process of you getting our services from a location of your choice and at any time  .
                     
                   
 
 
-> The table bellow provide a list of what we do..
+> The table bellow provide a list of our our Branches and location ..
 
-|  |  |  |  |
+| House | Location | Contacts | Link |
 | ---   |  ---     | ---  | --- |
-| DESIGN  | - | Our design practice offers a full range of services including ; | 
-|   |   | brand strategy, interaction and visual design and user experience testing| 
-| DEVELOPMENT  | - | All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis,Using| 
-|   |   | test-driven development and pair programming.| 
-| PRODUCT MANAGEMENT  | - | Planning and development is iterative. Because we are constantly coding and testing | 
-|   |   | | 
+| KIZITO | Mombasa  | +254 7079 44 222| [Visit](https://briankhaifah.github.io/Facion-Industry/)
+| KIZITO | Nyali  | +254 7079 44 222 | [Visit](https://briankhaifah.github.io/Facion-Industry/)
+| KIZITO | Nairiobi  | +254 7079 44 222 | [Visit](https://briankhaifah.github.io/Facion-Industry/)
+| KIZITO | kisumu  | +254 7079 44 222  |  [Visit](https://briankhaifah.github.io/Facion-Industry/)
+| KIZITO | kitale  | +254 7079 44 222 | [Visit](https://briankhaifah.github.io/Facion-Industry/)
 |       |        |       |
 
 ## **Contributors**
