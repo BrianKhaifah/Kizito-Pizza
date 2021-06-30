@@ -27,7 +27,7 @@ ul li a {
 }
 
 .nav {
-    padding: 20px;
+    padding: 30px;
 }
 
 body {
@@ -97,20 +97,62 @@ button:hover{
     color: white;
 }
 
-/* body */
+/* form */
 
-#data{
-    background-image: url("../img/page2.png");
-    background-size: 100% 100%;
-    width: 80%;
-    height: 800px;
-    border-radius: 20px;
-    margin: 50px;
 
+.form-group {
+    width: 100%;
 }
-.body{
-    padding: 50px;
+
+form {
+    text-align: center;
 }
-.select{
-    padding: 5px 10px;
+
+#ask,
+#locate,
+#checkOut,
+#userInfo,
+#checkoutUser1,
+#checkouAlertOne,
+#confirmAlert,
+#locationAlert {
+    margin: 40px 15% 15px 15%;
+    display: none;
+}
+
+#pizzaOrder,
+#orderTable,
+#mc_embed_signup {
+    margin: 40px 15% 15px 15%;
+}
+
+.alert {
+    display: none;
+}
+
+.btn-success,
+.btn-primary,
+.btn-warning {
+    width: 300px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 6px;
+}
+
+label {
+    font-size: 24px;
+}
+
+.view-order,
+#orderTable {
+    display: none;
+}
+
+.view-order {
+    text-align: center;
+    text-align: center;
+}
+
+select {
+    width: 100%;
 }
