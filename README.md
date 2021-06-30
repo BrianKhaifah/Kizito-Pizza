@@ -1,4 +1,4 @@
-## **DELANI STUDIO**
+## **Kizito Pizza House**
 
 
 ![Portfolio](img/h_img.jpg)

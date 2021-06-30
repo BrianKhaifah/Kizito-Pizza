@@ -34,7 +34,7 @@
                         <div class="col-md nav">
                             <ul>
                                 <li>
-                                    <a href="">HOME</a>
+                                    <a href="index.html">HOME</a>
                                 </li>
                             </ul>
 
@@ -42,7 +42,7 @@
                         <div class="col-md nav">
                             <ul>
                                 <li>
-                                    <a href="">HOME</a>
+                                    <a href="#">About</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,7 +50,7 @@
                         <div class="col-md nav">
                             <ul>
                                 <li>
-                                    <a href="">HOME</a>
+                                    <a href="#">Contacts</a>
                                 </li>
                             </ul>
                         </div>
@@ -310,7 +310,7 @@
         <form id="confirm" action="" class="" >
             <div class="form-group">
                 <label for locate>Do you want the Pizza Delivered to your location</label>
-                <select class="select" name="" id="location">
+                <select class="select" name="" id="askForLocation">
                 <option value="Yes">Yes</option>
                 <option value="No">No</option>
             </select>
@@ -322,8 +322,7 @@
 
     <!-- shipping section alert-->
     <div id="confirmAlert" class="alert alert-success alert-dismissible">
-        <strong>Success!</strong> 
-        <!-- <span id="message"></span> -->
+        <strong>Success!</strong> <span id="message"></span>
         <button type="button" class="close" data-dismiss="alert"> &times; </button>
 
     </div>
@@ -342,13 +341,13 @@
 
             <div class="form-group mb-2">
                 <label for="mce-MMERGE4">Phone</label>
-                <input type="text" class="form-contol" id="name" value="" placeholder="Enter your Phone Number here ...">
+                <input type="text" class="form-contol" id="phone" value="" placeholder="Enter your Phone Number here ...">
 
             </div>
 
             <div class="form-group mb-2">
                 <label for="mce-MMERGE4">Location</label>
-                <input type="text" class="form-contol" id="name" value="" placeholder="Enter your Location here ...">
+                <input type="text" class="form-contol" id="shippingLocation" value="" placeholder="Enter your Location here ...">
 
             </div>
             <button id="locationButton" class="btn btn-success" type="button">Submit</button>
@@ -356,8 +355,8 @@
     </div>
 
     <!-- alert for shipping location -->
-    <div id="lationAlert" class="alert alert-success alart-dismissible">
-        <strong>Success!</strong>  
+    <div id="locationAlert" class="alert alert-success alart-dismissible">
+        <strong>Success!</strong>  <span id="areaMessage"></span>
         <span id="messageArea"></span>
         <button type="button" class="close" data-dismiss="alert"> &times; </button>
     </div>
@@ -374,7 +373,7 @@
 
             <div class="form-group mb-2">
                 <label for="mce-MMERGE4">Phone</label>
-                <input type="text " class="form-control" id="nameOne" value="" placeholder="Enter your Phone here ...">
+                <input type="text " class="form-control" id="phone1" value="" placeholder="Enter your Phone here ...">
             </div>
             <button id="detailsButton" class="btn btn-success" type="button">Submit</button>
         </form>
@@ -382,7 +381,7 @@
     
 
     <!-- checkout section -->
-    <div id="checkoutAlertOne" class="alert alert-success alert-dismissible">
+    <div id="checkouAlertOne" class="alert alert-success alert-dismissible">
         <strong>Success! ...Kindly come And Collect your order</strong>
         <table class="table table-dark">
             <tr>
@@ -420,8 +419,8 @@
     </div>
 
     <!--  delivery checkout -->
-    <div id="checkout">
-        <div id="checkoutAlert" class="alert alert-success alert-dismissible">
+    <div id="checkOut">
+        <div id="checkouAlert" class="alert alert-success alert-dismissible">
             <strong>Success! Your order will be dropped to your Location</strong>
             <table class="table table-dark">
                 <tr>
@@ -445,7 +444,7 @@
                 <tr>
                     <th scope="row">3</th>
                     <td>Order Price:</td>
-                    <td> ksh:<span id="orderPrice"></span></td>
+                    <td> ksh:<span id="aggregatePrice"></span></td>
                 </tr>
 
                 <tr>
