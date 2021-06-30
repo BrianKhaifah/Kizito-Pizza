@@ -52,4 +52,41 @@ body{
     height: 920px;
     background-repeat: no-repeat;
 }
+.form-group {
+    width: 100%;
+    }
+    
+    form {
+      text-align: center;
+    }
+    #ask,#locate,#checkOut, #userInfo, #checkoutUser1,#checkouAlertOne,#confirmAlert,#locationAlert {
+      margin: 40px 15% 15px 15%;
+      display: none;
+    }
+  
+    #pizzaOrder,#orderTable,#mc_embed_signup {
+      margin: 40px 15% 15px 15%;
+    }
+    .alert {
+      display: none;
+    }
+    .btn-success, .btn-primary, .btn-warning {
+      width: 300px;
+      height: 60px;
+      margin: 15px;
+      border-radius: 6px;
+    }
+    label {
+    font-size: 24px;
+    }
+    .view-order,#orderTable{
+      display: none;
+    }
+    .view-order {
+      text-align: center;
+      text-align: center;
+    }
+    select {
+      width: 100%;
+    }
 
